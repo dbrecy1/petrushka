@@ -70,189 +70,100 @@ GET /api/v1/partners/stores?lat=55.7558&lng=37.6176&page=1&per_page=20
 
 Ответ в формате json:
 
-{
+```json
 
+{
   "status": "success",
-  
   "data": {
-  
     "groups": [
-    
       {
-      
         "title": "Доставка сегодня",
-        
         "type": "today",
-        
         "stores": [
-        
           {
-          
             "id": "store_001",
-            
             "name": "METRO",
-            
             "brand": "metro",
-            
             "logo_url": "https://storage.petrushka.com/partners/logos/metro.png",
-            
             "distance": 0.8,
-            
             "distance_text": "0,8 км от вас",
-            
             "delivery_options": [
-            
               {
-              
                 "type": "nearest",
-                
                 "title": "ближайшая доставка",
-                
-                "time_slot": "сегодня 21:00-23:00",
-                
+                "time_slot": "сегодня 21:00-23:00"
               }
-              
             ],
-            
             "external_link": "https://metro.ru/?utm_source=petrushka"
-            
           },
-          
           {
-          
             "id": "store_003",
-            
             "name": "ВИКТОРИЯ",
-            
             "brand": "victoria",
-            
             "logo_url": "https://storage.petrushka.com/partners/logos/victoria.png",
-            
             "distance": 1.2,
-            
             "distance_text": "1,2 км от вас",
-            
             "delivery_options": [
-            
               {
                 "type": "express",
-                
                 "title": "быстрая доставка",
-                
-                "time_slot": "20-60 минут",
-                
+                "time_slot": "20-60 минут"
               }
-              
             ],
-            
             "external_link": "https://victoria.ru/petrushka"
-            
           }
-          
         ]
-        
       },
-      
       {
-      
         "title": "Доставка завтра",
-        
         "type": "tomorrow",
-        
         "stores": [
-        
           {
-          
             "id": "store_002",
-            
             "name": "АШАН",
-            
             "brand": "auchan",
-            
             "logo_url": "https://storage.petrushka.com/partners/logos/auchan.png",
-            
             "distance": 2.5,
-            
             "distance_text": "2,5 км от вас",
-            
             "delivery_options": [
-            
               {
-              
                 "type": "scheduled",
-                
                 "title": "доставка ко времени",
-                
-                "time_slot": "завтра 10:00-12:00",
-
+                "time_slot": "завтра 10:00-12:00"
               }
-              
             ],
-            
             "external_link": "https://auchan.ru/petrushka-partner"
-            
           },
-          
           {
-          
             "id": "store_004",
-            
             "name": "ПЕРЕКРЕСТОК",
-            
             "brand": "perekrestok",
-            
             "logo_url": "https://storage.petrushka.com/partners/logos/perekrestok.png",
-            
             "distance": 3.1,
-            
             "distance_text": "3,1 км от вас",
-            
             "delivery_options": [
-            
               {
-              
                 "type": "scheduled",
-                
                 "title": "доставка ко времени",
-                
-                "time_slot": "завтра 12:00-14:00",
-                
+                "time_slot": "завтра 12:00-14:00"
               }
-              
             ],
-            
             "external_link": "https://perekrestok.ru/petrushka"
-            
           }
-          
         ]
-        
       }
-      
     ],
-    
     "pagination": {
-    
       "current_page": 1,
-      
       "per_page": 20,
-      
       "total_items": 4,
-      
       "total_pages": 1
-      
     },
-    
     "user_location": {
-    
       "lat": 55.7558,
-      
       "lng": 37.6176,
-      
       "address": "м. Тверская"
-      
     }
-    
   }
-  
 }
+\```
