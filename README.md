@@ -167,7 +167,7 @@ GET /api/v1/partners/stores?lat=55.7558&lng=37.6176&page=1&per_page=20
     }
   }
 }
-\```
+```
 
 Задание 3: Архитектура PUSH-уведомлений
 
