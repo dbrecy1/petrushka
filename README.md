@@ -171,3 +171,8 @@ GET /api/v1/partners/stores?lat=55.7558&lng=37.6176&page=1&per_page=20
 
 Задание 3: Архитектура PUSH-уведомлений
 
+<img width="544" height="345" alt="Верхний уровень drawio" src="https://github.com/user-attachments/assets/a798fb62-3b1d-4120-82ad-8103259aebd1" />
+
+
+<img width="908" height="985" alt="Углубляемся drawio" src="https://github.com/user-attachments/assets/94b28d9d-aba2-47a6-b316-ebd21a1f98e4" />
+
